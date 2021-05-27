@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .button_download{
+      text-decoration: none;
+      border: 1px solid #ccbbff;
+      background: rgb(182, 182, 182);
+      color: rgb(24, 24, 24);
+  }
+  .button_download:hover{
+    background: lightgray;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    text-decoration: none;
+}
+.button_download, select{
+    cursor: pointer;
+}
+  .container {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    grid-template-rows: 30vh 70vh;
+    grid-template-areas: "menu menu" "div div";
+  }
+  menu {
+    background: rgb(2,0,36);
+    background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,38,121,1) 40%, rgba(0,212,255,1) 100%);
+    grid-area: menu;
+    color: white;
+  }
+  menu h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5.5vh;
+      
+  }
+  /* header {
+    background-color: orange;
+    grid-area: header;
+  } */
+  div {
+    background-color: #f0f8ff;
+    grid-area: div;
+     display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    width: 100vw;
+  }
+  div a{
+   
+    padding: 2.5vh;
+    margin-top: 25vh;
+    font-size: large;
+  }
+  /* footer {
+    color: white;
+    background-color: black;
+    grid-area: footer;
+  } */
