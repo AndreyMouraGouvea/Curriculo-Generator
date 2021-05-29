@@ -1,13 +1,13 @@
 # Currículo - Download
 
-### Tela Inicial - Inserção dos Dados
+### Tela Inicial - Input Insert
 
-- [](img/1.png)
+![](img/1.png)
 
-### Tela Inicial - Segunda Parte - Envio dos Dados
+### Tela Inicial - Data send
 
-- [](img/2.png)
+![](img/2.png)
 
 
-### Página para Download do Currículo
-- [](img/3.png)
+### Page to Download the Curriculum
+![](img/3.png)
