@@ -2,12 +2,12 @@
 
 ### Tela Inicial - Inserção dos Dados
 
-- [img/1.png]
+- [](img/1.png)
 
 ### Tela Inicial - Segunda Parte - Envio dos Dados
 
-- [img/2.png]
+- [](img/2.png)
 
 
 ### Página para Download do Currículo
-- [img/3.png]
+- [](img/3.png)
