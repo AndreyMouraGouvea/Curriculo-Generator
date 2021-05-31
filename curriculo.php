@@ -85,7 +85,7 @@ if(isset($_FILES['foto']))
                 }
                 .container {
                   display: grid;
-                  grid-template-columns: 1.5fr 2.5fr;
+                  grid-template-columns: 1fr 2.5fr;
                   grid-template-rows: 10vh 30vh 50vh 10vh;
                   grid-template-areas: "menu menu" "header text" "main div" "footer footer";
                 }

@@ -17,7 +17,7 @@
                 }
                 .container {
                   display: grid;
-                  grid-template-columns: 1.5fr 2.5fr;
+                  grid-template-columns: 1fr 2.5fr;
                   grid-template-rows: 10vh 30vh 50vh 10vh;
                   grid-template-areas: "menu menu" "header text" "main div" "footer footer";
                 }
@@ -32,6 +32,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    
                 }
                 header {
                   display: flex;
@@ -39,20 +40,25 @@
                   justify-content: center;
                   background-color: orange;
                   grid-area: header;
-                  color: white
+                  color: white;
+                 
+
                 }
                 text{
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
+                    padding-left: 10vh; 
                   background-color: red;
                   grid-area: text;
-                  color: white;                
+                  color: white;  
+                  padding-top: 3vh;              
                 }
                 main {
                   color: white;
                   background-color: purple;
                   grid-area: main;
+                  
                 }
                 div {
                   color: white;
