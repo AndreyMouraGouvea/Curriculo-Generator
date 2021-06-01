@@ -32,6 +32,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    padding-top: 3vh;
                     
                 }
                 header {
@@ -48,11 +49,13 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    padding-left: 10vh; 
+                    /* padding-left: 10vh;  */
                   background-color: red;
                   grid-area: text;
                   color: white;  
-                  padding-top: 3vh;              
+                  /* padding-top: 3vh; */
+                  /*   alteração*/
+                  padding-left: 36vh;              
                 }
                 main {
                   color: white;
@@ -82,7 +85,24 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    padding-top: 3vh;
                     
+                }
+                /* alteração */
+                h1{
+                    padding-top: 3vh;
+                }
+                .texto{
+                  display: flex;
+                  justify-content: center;
+                  flex-direction: column;
+                  padding-left: 36vh;
+                }
+                main{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding-left: 15vh;
                 }
 
     </style>
@@ -198,7 +218,7 @@ function calcularIdade($date){
 
         </main>
 
-        <div>
+        <div class="texto">
           <h3>Experiências: '.$experiencias.'</h3>
           <br>
           <h3>Escolaridade: '.$escolaridade.'</h3>
