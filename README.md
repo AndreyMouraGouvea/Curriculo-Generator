@@ -1,6 +1,6 @@
 # Currículo - Download
 
-[Gerador-Currículo](http://andreyg.profrodolfo.com.br/)
+[Gerador-Currículo](http://andreyg.profrodolfo.com.br/PHP%20-%20Curriculo/)
 
 ### Tela Inicial - Input Insert
 
